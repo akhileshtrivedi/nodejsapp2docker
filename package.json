@@ -2,7 +2,7 @@
   "name": "docker_web_app",
   "version": "1.0.0",
   "description": "Node.js on Docker",
-  "author": "A B <a.b.com>",
+  "author": "Akhilesh Trivedi",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
