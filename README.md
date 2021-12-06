@@ -6,6 +6,6 @@
 
 ###  Step3-  On browser hit it( http://localhost:8080/ )
 
-## Note: If we want to see the files in container, we will run it. By which we will be able to see the file stuff...
+## Note: If we want to see the files inside the container, we will run below command. By which we will be able to see the file stuff...
 
-docker exec -it <Container ID or Container name>  /bin/bash
+docker exec -it < Container ID or Container name >  /bin/bash
