@@ -11,5 +11,10 @@ pipeline{
                 git branch: 'main', credentialsId: 'GitHub', url: 'https://github.com/akhileshtrivedi/nodejsapp2docker.git'
             }
         }
+        stage("Maven Build"){
+            steps{
+                sh "mvn clean package"
+            }
+        }
     }
 }
